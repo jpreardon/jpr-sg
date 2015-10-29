@@ -1,0 +1,101 @@
+body {
+	font-family: arial, "sans-serif";
+	background-color: white;
+	color: #444444;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, "sans-serif";
+}
+
+a {
+	color: #0088CC;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#navigation, #footer {
+	width: 100%;
+	background: #666666;
+	color: #FFFFFF;
+	padding: 0.25em 1em;
+}
+
+#navigation h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+#footer p {
+	font-size: 1em;
+}
+
+.title {
+	font-size: 2.25em;
+}
+
+.dateline {
+	margin-top: -2.25em;
+	font-size: 0.9em;
+}
+
+.h-entry {
+	margin: 0 auto;
+	max-width: 32em;
+	padding: 0 1em;
+}
+
+.content img {
+	width: 100%;
+}
+
+.content, .byline {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+
+.byline {
+	border-top: 1px solid #444444;
+}
+
+#comments a, #related-content a {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.wireframe {
+	margin: 0;
+	padding: 0;
+}
+
+.wireframe #navigation { min-height: 4em; }
+.wireframe #about { min-height: 15em; }
+.wireframe #search { min-height: 4em; }
+.wireframe #latest-posts { min-height: 20em; }
+.wireframe #footer { min-height: 4em; }
+.wireframe #title { min-height: 4em; }
+.wireframe #content { min-height: 50em; }
+.wireframe #byline { min-height: 4em; }
+.wireframe #related-content { min-height: 8em; }
+.wireframe #comments-section { min-height: 25em; }
+
+.wireframe section {
+	margin: 1em;
+	background-color: whitesmoke;
+	border: 1px solid gainsboro;
+	font: small sans-serif;
+	text-align: center;
+	color: silver;
+}
+
+.wireframe h1 {
+	font-weight: 100;
+}
